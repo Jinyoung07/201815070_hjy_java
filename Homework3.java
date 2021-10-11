@@ -1,3 +1,5 @@
+package Homework;
+
 import java.util.Scanner;
 
 public class MaxMin {
@@ -8,9 +10,10 @@ public class MaxMin {
         int count = sc.nextInt();
 
         int[] num = new int[count];
+        System.out.print("수를 입력하세요:");
 
         for(int i=0; i<num.length; i++) {
-            System.out.print("수를 입력하세요:");
+
             num[i] = sc.nextInt();
         }
         sc.close();
@@ -28,3 +31,4 @@ public class MaxMin {
         System.out.println("최소값: " + min);
     }
 }
+
