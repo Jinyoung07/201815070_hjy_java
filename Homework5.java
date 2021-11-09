@@ -4,7 +4,7 @@ public class PersonalComputer {
     private String CPU;
     private double memory;
 
-    public PersonalComputer(String companyName, double memory) {
+    public PersonalComputer(String CPU, double memory) {
         this.CPU = CPU;
         this.memory = memory;
     }
