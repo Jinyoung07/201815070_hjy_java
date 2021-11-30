@@ -55,7 +55,7 @@ public class Homework7 {
             }
             else
             {
-                System.out.println(getModel() + ": " + (getPrintedCount() + 1) + "th Print Failed - Out of Ink.");
+                System.out.println(getModel() + ": " + (getPrintedCount() + 1) + "매째 인쇄 실패 - 잉크부족");
                 return false;
             }
         }
@@ -74,7 +74,7 @@ public class Homework7 {
             }
             else
             {
-                System.out.println(getModel() + ": " + (getPrintedCount() + 1) + "th Print Failed - Low Toner.");
+                System.out.println(getModel() + ": " + (getPrintedCount() + 1) + "매째 인쇄 실패 - 토너.");
                 return false;
             }
         }
